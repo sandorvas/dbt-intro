@@ -1,0 +1,12 @@
+name: 'my_dbt_project'
+version: '1.0'
+config-version: 2
+
+# Directory paths
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
+
+# Specify the default database schema
+profile: 'my_dbt_project'
+
